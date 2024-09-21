@@ -9,7 +9,7 @@ This program processes large s-parameter files in multiple formats from the manu
 Download s-parameter file from manufacturer (.s2p, .txt, etc) and upload to the program. Next, enter source-degeneration inductor value (nH) and destination file. Hit "process" button to produce the output file. The output file will be produced in the same directory that the app is running in unless a filepath is provided along with the name. Example s-parameter files for FET devices are located here: https://www.cel.com/components/low_noise_devices/
 
 ## Setup
-You may run this program using the python source code or run the provided executable. Optionally, you may create an executable yourself using PyInstaller.\
+You may run this program using the python source code or run the provided executable located in the "dist" folder. Optionally, you may create an executable yourself using PyInstaller.\
 
 To run the program:
 
@@ -18,5 +18,6 @@ python3 CS_To_CG_S_Params.py
 ```
 \
 To create the executable:
-
-
+```bash
+python -m PyInstaller --onefile --windowed -- name CS2CGSParams.py
+```

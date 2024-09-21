@@ -13,7 +13,7 @@ You may run this program using the python source code or run the executable. Opt
 
 To run the program:
 
-'''
+'''bash
 python3 CS_To_CG_S_Params.py
 '''
 

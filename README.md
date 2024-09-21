@@ -1,5 +1,5 @@
 # Common Gate to Common Source S-Parameter Converter
-Python application to convert common source to common gate s-parameters
+Python application to convert common source s-parameters to common gate s-parameters
 
 ## Description
 Manufacturers generally only provide common-source s-parameters, but a common-gate configuration is often advantageous for oscillator/LNA designs. 
@@ -19,5 +19,5 @@ python3 CS_To_CG_S_Params.py
 \
 To create the executable:
 ```bash
-python -m PyInstaller --onefile --windowed -- name CS2CGSParams.py
+python -m PyInstaller --onefile --windowed --name CS2CGSParams.py
 ```

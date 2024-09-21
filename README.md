@@ -1,2 +1,2 @@
-# CS_CG_S_Params
-Pyhton application to convert common source to common gate s-parameters
+# Common Gate to Common Source S-Parameter Converter
+Python application to convert common source to common gate s-parameters
